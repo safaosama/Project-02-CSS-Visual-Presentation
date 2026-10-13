@@ -1,0 +1,36 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.rectangle
+{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.capsule-pill {
+    width: 200px;
+    height: 100px;
+    background-color: purple;
+    border-radius: 50px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+}
+

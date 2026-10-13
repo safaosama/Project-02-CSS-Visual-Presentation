@@ -1,0 +1,43 @@
+.color-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.color-box.named-color {
+    background-color: tomato;
+}  
+
+.color-box.hex-color{
+    background-color: #0c650c;
+}  
+
+.color-box.rgb-color {
+    background-color: rgb(0, 0, 255);
+}  
+
+.color-box.rgba-color{
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.opacity-box {
+    width: 200px;
+    height: 100px;
+    background-color: tomato;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.rgba-box {
+    width: 200px;
+    height: 100px;
+    background-color: rgba(255, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
